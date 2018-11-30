@@ -12,10 +12,16 @@ Required libraries:
  # clone this repo
 git clone https://github.com/smitshilu/SnapChatFilterExample.git
 cd SnapChatFilterExample
-# Start applying filters
-python pix2pix.py \
-  --mode test \
-  --output_dir facades_test \
-  --input_dir facades/val \
-  --checkpoint facades_train
-  ```
+
+# Start applying filters to video file and save it to another mp4 file
+python apply_filter.py -f abc.mp4 -o xyz.mp4
+
+# Start applying filters to video file and watch it without saving it
+python apply_filter.py -f abc.mp4
+
+# Start applying filters to camera feed
+python apply_filter.py -f camera
+
+# Start applying filters to camera feed and save it to another mp4 file
+python apply_filter.py -f camera -o xyz.mp4
+```
