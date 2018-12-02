@@ -28,3 +28,6 @@ python apply_filter.py -f camera -o xyz.mp4
 # By defalult it will take 30 FPS for any video but if you want to provide your own frame rate use following command
 python apply_filter.py -f camera -o xyz.mp4 -fr 20
 ```
+
+## Demo
+![Demo](https://github.com/smitshilu/SnapChatFilterExample/blob/master/sample.gif)
