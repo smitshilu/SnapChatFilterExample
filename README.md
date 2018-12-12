@@ -2,6 +2,10 @@
 
 This is a simple SnapChat filter example using Computer Vision. 
 
+
+## Demo
+![Demo](https://github.com/smitshilu/SnapChatFilterExample/blob/master/sample.gif)
+
 Required libraries:
   1. dlib
   2. opencv
@@ -29,5 +33,3 @@ python apply_filter.py -f camera -o xyz.mp4
 python apply_filter.py -f camera -o xyz.mp4 -fr 20
 ```
 
-## Demo
-![Demo](https://github.com/smitshilu/SnapChatFilterExample/blob/master/sample.gif)
