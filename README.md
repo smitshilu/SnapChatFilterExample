@@ -2,6 +2,9 @@
 
 This is a simple SnapChat filter example using Computer Vision. 
 
+Blog Post: [Medium](https://hackernoon.com/how-to-make-snapchat-lenses-f9eae861b5db)
+
+Video: [YouTube](https://www.youtube.com/watch?v=pHBWW-sexf8)
 
 ## Demo
 ![Demo](https://github.com/smitshilu/SnapChatFilterExample/blob/master/sample.gif)
